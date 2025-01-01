@@ -1,0 +1,14 @@
+project/
+│
+├── app.py                  # Main Gradio application
+├── requirements.txt        # Python dependencies
+├── train_model.py          # Training script
+├── predict_sql.py          # Prediction script for NL-to-SQL
+├── dataset/
+│   ├── train.csv           # Training data (question and SQL 				query pairs)
+│   └── test.csv            # Testing data (for evaluation)
+│
+├── model/
+│   └── t5_nl2sql/          # Directory to save/load the 					trained model
+│
+└── README.md               # Instructions and project 						documentation
